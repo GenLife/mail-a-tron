@@ -12,7 +12,7 @@
 **Mail-a-tron** provides you with a better workflow for using email templates in your app.
 
 - 🚀 *Powerful*: Use React to construct your email templates as composable components.
-- 🛠️ *Maintanable*: Preview your designs, see how different data affects your layouts.
+- 🛠️ *Maintainable*: Preview your designs, see how different data affects your layouts.
 - 📦 *Modular*: Deploy as a microservice that responds to HTTP requests with html ready to be sent as an email.
 
 ## Getting started
