@@ -1,7 +1,7 @@
 {
   "name": "mail-a-tron",
   "version": "1.0.0",
-  "description": "",
+  "description": "Painless email templates with Next.js",
   "scripts": {
     "dev": "next",
     "build": "next build",
