@@ -11,7 +11,7 @@ export default class MyDocument extends Document {
   render () {
     // TODO: Inject title?
     return (
-      <html xmlns='http://www.w3.org/1999/xhtml'>
+      <html lang='en' xmlns='http://www.w3.org/1999/xhtml'>
         <Head>
           <meta httpEquiv='Content-Type' content='text/html; charset=utf-8' />
           <meta name='viewport' content='width=device-width, initial-scale=1.0' />
