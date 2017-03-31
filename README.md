@@ -1,4 +1,4 @@
-<p align="center"><img alt="mail-a-tron logo" src="static/logo.png" width="128" width="128"></p>
+<p align="center"><img alt="mail-a-tron logo" src="https://github.com/GenLife/mail-a-tron/blob/master/static/logo.png" width="128" width="128"></p>
 <h2 align="center">Mail-a-tron</h2>
 <p align="center">
 <strong>✉️ Painless email templates with Next.js ✉️</strong>
@@ -7,7 +7,7 @@
 <a href="https://npmjs.com/package/mail-a-tron"><img src="https://img.shields.io/npm/v/mail-a-tron.svg"></a>
 </p>
 
-<p align="center"><img alt="mail-a-tron demo gif" src="static/demo.gif"></p>
+<p align="center"><img alt="mail-a-tron demo gif" src="https://github.com/GenLife/mail-a-tron/blob/master/static/demo.gif"></p>
 
 **Mail-a-tron** provides you with a better workflow for using email templates in your app.
 
