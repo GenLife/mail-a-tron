@@ -7,6 +7,8 @@
 <a href="https://npmjs.com/package/mail-a-tron"><img src="https://img.shields.io/npm/v/mail-a-tron.svg"></a>
 </p>
 
+<p align="center"><img alt="mail-a-tron demo gif" src="static/demo.gif"></p>
+
 **Mail-a-tron** provides you with a better workflow for using email templates in your app.
 
 - 🚀 *Powerful*: Use React to construct your email templates as composable components.
