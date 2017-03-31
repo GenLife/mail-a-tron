@@ -1,0 +1,83 @@
+'use strict';Object.defineProperty(exports, "__esModule", { value: true });var _extends2 = require('babel-runtime/helpers/extends');var _extends3 = _interopRequireDefault(_extends2);var _react = require('react');var _react2 = _interopRequireDefault(_react);
+var _Layout = require('../Layout');var _Layout2 = _interopRequireDefault(_Layout);
+var _reactHtmlEmail = require('react-html-email');
+var _Button = require('../Button');var _Button2 = _interopRequireDefault(_Button);function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+
+var rowStyle = {
+  width: '300px' };
+
+
+// Sets maximum width for each row of content
+exports.default = function (_ref) {var name = _ref.name;return (
+    _react2.default.createElement(_Layout2.default, null,
+
+
+
+      _react2.default.createElement(_reactHtmlEmail.Item, {
+          align: 'center',
+          valign: 'top',
+          style: (0, _extends3.default)({}, rowStyle, { paddingBottom: '30px' }) },
+
+        _react2.default.createElement(_reactHtmlEmail.Span, {
+            color: '#444444',
+            fontSize: 25 }, 'Welcome' + (
+
+          name ? ' ' + name : '') + '!')),
+
+
+
+
+
+      _react2.default.createElement(_reactHtmlEmail.Item, {
+          align: 'center',
+          valign: 'top',
+          style: rowStyle },
+
+        _react2.default.createElement(_reactHtmlEmail.A, { href: 'http://gen.life' },
+          _react2.default.createElement(_reactHtmlEmail.Image, {
+            'data-mc-bar': 'bar',
+            'data-mc-baz': 'baz',
+            alt: 'video-image',
+            src: 'static/video.jpg',
+            width: 300,
+            height: 240,
+            vspace: 20 }))),
+
+
+
+
+
+
+      _react2.default.createElement(_reactHtmlEmail.Item, {
+          align: 'center',
+          valign: 'top',
+          style: (0, _extends3.default)({}, rowStyle, { padding: '25px 0px' }) },
+
+        _react2.default.createElement(_reactHtmlEmail.Span, {
+            color: '#444444',
+            fontSize: 25 }, 'Our Greatest Feature Ever')),
+
+
+
+
+
+
+
+      _react2.default.createElement(_reactHtmlEmail.Item, {
+          align: 'center',
+          valign: 'top',
+          style: rowStyle },
+
+        _react2.default.createElement(_reactHtmlEmail.Span, {
+            fontSize: 14,
+            color: '#444444',
+            lineHeight: 20 }, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius, leo a ullamcorper feugiat, ante purus sodales justo, a faucibus libero lacus a est. Aenean at mollis ipsum.')),
+
+
+
+
+
+
+
+      _react2.default.createElement(_reactHtmlEmail.Item, { style: rowStyle },
+        _react2.default.createElement(_Button2.default, { href: 'http://gen.life' }))));};

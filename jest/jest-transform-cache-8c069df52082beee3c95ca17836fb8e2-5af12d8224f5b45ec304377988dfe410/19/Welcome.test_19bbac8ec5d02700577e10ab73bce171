@@ -1,0 +1,17 @@
+'use strict';
+var _react = require('react');var _react2 = _interopRequireDefault(_react);
+var _Welcome = require('./Welcome');var _Welcome2 = _interopRequireDefault(_Welcome);
+var _enzyme = require('enzyme');
+var _enzymeToJson = require('enzyme-to-json');var _enzymeToJson2 = _interopRequireDefault(_enzymeToJson);function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };} /* global it, expect, describe */
+
+describe('Welcome', function () {
+  it('it renders normally', function () {
+    var wrapper = (0, _enzyme.shallow)(_react2.default.createElement(_Welcome2.default, null));
+    expect((0, _enzymeToJson2.default)(wrapper)).toMatchSnapshot();
+  });
+
+  it('it renders with a name', function () {
+    var wrapper = (0, _enzyme.shallow)(_react2.default.createElement(_Welcome2.default, { name: 'Jo\xE3o' }));
+    expect((0, _enzymeToJson2.default)(wrapper)).toMatchSnapshot();
+  });
+});

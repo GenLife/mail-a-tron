@@ -1,0 +1,11 @@
+version: "2"
+services:
+  app:
+    build: .
+    command: npm run dev
+    tty: true
+    volumes:
+      - .:/app
+      - /app/node_modules
+    ports:
+      - "3000:3000"

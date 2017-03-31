@@ -1,0 +1,60 @@
+'use strict';Object.defineProperty(exports, "__esModule", { value: true });var _react = require('react');var _react2 = _interopRequireDefault(_react);var _reactHtmlEmail = require('react-html-email');function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+
+// Expand React attributes to support emails
+(0, _reactHtmlEmail.injectReactEmailAttributes)();exports.default =
+
+function (_ref) {var children = _ref.children;return (
+    _react2.default.createElement(_reactHtmlEmail.Box, {
+        width: '100%',
+        height: '100%' },
+
+
+
+
+      _react2.default.createElement(_reactHtmlEmail.Item, {
+          align: 'center',
+          bgcolor: '#333333',
+          style: { padding: '20px' } },
+        _react2.default.createElement(_reactHtmlEmail.Image, {
+          'data-mc-bar': 'bar',
+          'data-mc-baz': 'baz',
+          alt: 'logo',
+          src: 'static/logo.png',
+          width: 60,
+          height: 60,
+          vspace: 10 })),
+
+
+
+
+
+      _react2.default.createElement(_reactHtmlEmail.Item, null,
+        _react2.default.createElement(_reactHtmlEmail.Box, {
+            width: '100%',
+            style: { padding: '20px', backgroundColor: '#D8F1FF' } },
+
+          _react2.default.createElement(_reactHtmlEmail.Item, null,
+            _react2.default.createElement(_reactHtmlEmail.Box, {
+                align: 'center',
+                style: { padding: '20px' } },
+
+              children)))),
+
+
+
+
+
+
+
+      _react2.default.createElement(_reactHtmlEmail.Item, {
+          align: 'center',
+          style: { padding: '20px 0px' } },
+
+        _react2.default.createElement(_reactHtmlEmail.Span, null, 'Powered by'),
+        _react2.default.createElement(_reactHtmlEmail.Image, {
+          'data-mc-bar': 'bar',
+          'data-mc-baz': 'baz',
+          alt: 'logo',
+          src: 'static/genlife.png',
+          width: 100,
+          height: 37.48 }))));};

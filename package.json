@@ -1,0 +1,43 @@
+{
+  "name": "mail-a-tron",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "NODE_ENV=testing jest",
+    "pretest": "npm run lint",
+    "lint": "standard"
+  },
+  "keywords": [
+    "next.js",
+    "docker",
+    "reactjs",
+    "react",
+    "email",
+    "mail",
+    "mailatron",
+    "genlife"
+  ],
+  "author": "João Mesquita <joao@gen.life>",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^2.0.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-html-email": "^1.2.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.1",
+    "babel-jest": "^19.0.0",
+    "enzyme": "^2.8.0",
+    "enzyme-to-json": "^1.5.0",
+    "jest": "^19.0.2",
+    "react-addons-test-utils": "^15.4.2",
+    "standard": "^9.0.2"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  }
+}

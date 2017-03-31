@@ -1,0 +1,189 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Welcome it renders normally 1`] = `
+<Component>
+  <Item
+    align="center"
+    style={
+      Object {
+        "paddingBottom": "30px",
+        "width": "300px",
+      }
+    }
+    valign="top"
+  >
+    <Span
+      color="#444444"
+      fontFamily="sans-serif"
+      fontSize={25}
+    >
+      Welcome!
+    </Span>
+  </Item>
+  <Item
+    align="center"
+    style={
+      Object {
+        "width": "300px",
+      }
+    }
+    valign="top"
+  >
+    <A
+      href="http://gen.life"
+      textDecoration="underline"
+    >
+      <Image
+        alt="video-image"
+        data-mc-bar="bar"
+        data-mc-baz="baz"
+        height={240}
+        src="static/video.jpg"
+        vspace={20}
+        width={300}
+      />
+    </A>
+  </Item>
+  <Item
+    align="center"
+    style={
+      Object {
+        "padding": "25px 0px",
+        "width": "300px",
+      }
+    }
+    valign="top"
+  >
+    <Span
+      color="#444444"
+      fontFamily="sans-serif"
+      fontSize={25}
+    >
+      Our Greatest Feature Ever
+    </Span>
+  </Item>
+  <Item
+    align="center"
+    style={
+      Object {
+        "width": "300px",
+      }
+    }
+    valign="top"
+  >
+    <Span
+      color="#444444"
+      fontFamily="sans-serif"
+      fontSize={14}
+      lineHeight={20}
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius, leo a ullamcorper feugiat, ante purus sodales justo, a faucibus libero lacus a est. Aenean at mollis ipsum.
+    </Span>
+  </Item>
+  <Item
+    style={
+      Object {
+        "width": "300px",
+      }
+    }
+  >
+    <Component
+      href="http://gen.life"
+    />
+  </Item>
+</Component>
+`;
+
+exports[`Welcome it renders with a name 1`] = `
+<Component>
+  <Item
+    align="center"
+    style={
+      Object {
+        "paddingBottom": "30px",
+        "width": "300px",
+      }
+    }
+    valign="top"
+  >
+    <Span
+      color="#444444"
+      fontFamily="sans-serif"
+      fontSize={25}
+    >
+      Welcome João!
+    </Span>
+  </Item>
+  <Item
+    align="center"
+    style={
+      Object {
+        "width": "300px",
+      }
+    }
+    valign="top"
+  >
+    <A
+      href="http://gen.life"
+      textDecoration="underline"
+    >
+      <Image
+        alt="video-image"
+        data-mc-bar="bar"
+        data-mc-baz="baz"
+        height={240}
+        src="static/video.jpg"
+        vspace={20}
+        width={300}
+      />
+    </A>
+  </Item>
+  <Item
+    align="center"
+    style={
+      Object {
+        "padding": "25px 0px",
+        "width": "300px",
+      }
+    }
+    valign="top"
+  >
+    <Span
+      color="#444444"
+      fontFamily="sans-serif"
+      fontSize={25}
+    >
+      Our Greatest Feature Ever
+    </Span>
+  </Item>
+  <Item
+    align="center"
+    style={
+      Object {
+        "width": "300px",
+      }
+    }
+    valign="top"
+  >
+    <Span
+      color="#444444"
+      fontFamily="sans-serif"
+      fontSize={14}
+      lineHeight={20}
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius, leo a ullamcorper feugiat, ante purus sodales justo, a faucibus libero lacus a est. Aenean at mollis ipsum.
+    </Span>
+  </Item>
+  <Item
+    style={
+      Object {
+        "width": "300px",
+      }
+    }
+  >
+    <Component
+      href="http://gen.life"
+    />
+  </Item>
+</Component>
+`;
