@@ -73,6 +73,10 @@ Originally this project started out by integrating [react-storybook](https://git
 
 This project could do with more templates that can be used as boilerplates. The welcome template is roughly based on a [free email template pack by Litmus](https://litmus.com/resources/free-responsive-email-templates).
 
+### mjml
+
+The mjml project has a more robust set of React components, it would be nice to migrate the current react-html-email library to that one!
+
 ## Resources
 - [Useful stackoverflow answer about what you can and can't do with css in emails](http://stackoverflow.com/questions/4466439/css-classes-in-email)
 - [Find out if a css property is supported](https://www.campaignmonitor.com/css/)
