@@ -75,7 +75,7 @@ This project could do with more templates that can be used as boilerplates. The 
 
 ### mjml
 
-The mjml project has a more robust set of React components, it would be nice to migrate the current react-html-email library to that one!
+The mjml project has a more robust set of React components, it would be nice to migrate the current react-html-email library to that one - there's an open issue at the moment regarding this https://github.com/mjmlio/mjml/issues/488
 
 ## Resources
 - [Useful stackoverflow answer about what you can and can't do with css in emails](http://stackoverflow.com/questions/4466439/css-classes-in-email)
