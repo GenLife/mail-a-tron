@@ -88,9 +88,9 @@ The mjml project has a more robust set of React components, it would be nice to 
 
 ## Authors
 
-- João Mesquita ([@fusillini](https://twitter.com/fusillini)) - [GenLife](https://gen.life)
-- James Poole [@jamescpoole](https://twitter.com/jamescpoole) - [GenLife](https://gen.life)
-- Sha 256 - [GenLife](https://gen.life)
+- João Mesquita ([@fusillini](https://twitter.com/fusillini)) - [Tokensoft](https://tokensoft.io)
+- James Poole [@jamescpoole](https://twitter.com/jamescpoole) - [Tokensoft](https://tokensoft.io)
+- Sha 256 - [GenLife](https://tokensoft.io)
 
 ## License
 
