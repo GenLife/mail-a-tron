@@ -1,0 +1,90 @@
+{
+  "name": "jcsmesquita/mail-a-tron",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "",
+  "branch": "",
+  "style": {
+    "name": "Material",
+    "componentSet": {
+      "nav": "nav/DarkAbsoluteNav",
+      "header": "header/GradientHeader",
+      "article": "article/BasicArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "Roboto, sans-serif",
+    "heading": {
+      "fontWeight": 500,
+      "letterSpacing": "-0.01em"
+    },
+    "colors": {
+      "text": "#212121",
+      "background": "#fff",
+      "primary": "#2196f3",
+      "secondary": "#1565c0",
+      "highlight": "#ff4081",
+      "border": "#e0e0e0",
+      "muted": "#f5f5f5"
+    },
+    "layout": {
+      "centered": true,
+      "bannerHeight": "80vh",
+      "maxWidth": 896
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/jcsmesquita/mail-a-tron",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://npmjs.com/package/mail-a-tron",
+          "text": "npm"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "mail-a-tron",
+      "subhead": "✉️ Painless email templates with Next.js ✉️",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "mail-a-tron: ✉️ Painless email templates with Next.js ✉️",
+          "url": ""
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "jcsmesquita",
+          "repo": "mail-a-tron"
+        }
+      ],
+      "text": "v1.0.3"
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "<p><img src=\"https://raw.githubusercontent.com/GenLife/mail-a-tron/master/static/logo.png\"></p>\n<h2>Mail-a-tron</h2>\n<p>\n<strong>&#x2709;&#xFE0F; Painless email templates with Next.js &#x2709;&#xFE0F;</strong>\n<br><br>\n<a href=\"https://npmjs.com/package/mail-a-tron\"><img src=\"https://img.shields.io/npm/dm/mail-a-tron.svg\"></a>\n<a href=\"https://npmjs.com/package/mail-a-tron\"><img src=\"https://img.shields.io/npm/v/mail-a-tron.svg\"></a>\n</p>\n\n<p><img src=\"https://raw.githubusercontent.com/GenLife/mail-a-tron/master/static/demo.gif\"></p>\n\n<p><strong>Mail-a-tron</strong> provides you with a better workflow for using email templates in your app.</p>\n<ul>\n<li>&#x1F680; <em>Powerful</em>: Use React to construct your email templates as composable components.</li>\n<li>&#x1F6E0;&#xFE0F; <em>Maintainable</em>: Preview your designs, see how different data affects your layouts.</li>\n<li>&#x1F4E6; <em>Modular</em>: Deploy as a microservice that responds to HTTP requests with html ready to be sent as an email.</li>\n</ul>\n<h2>Getting started</h2>\n<p>Make sure you have docker installed, clone the repo and run:</p>\n<pre>docker-compose up</pre><p>Browse to <a href=\"http://localhost:3000/welcome\">http://localhost:3000/welcome</a> to see the an example template.</p>\n<h2>How does it work?</h2>\n<p>Mail-a-tron is built on top of Zeit&apos;s <a href=\"https://github.com/zeit/next.js/\">Next.js</a> - a minimalistic framework for server-rendered React applications. If you&apos;re unfamiliar with Next, take a few minutes to read through their readme. This project leverages a couple of fundamental features:</p>\n<ul>\n<li>URL paths are automatically routed to components in <code>/pages</code> with query parameters passed in.</li>\n<li>Automatic server-side rendering - you get a fully formed html response when hitting any route.</li>\n<li>Webpack, hot module reloading, minification, isolated scoped css, and many other things come for free.</li>\n</ul>\n<p>In mail-a-tron, we simply build each email template as a separate page. This gives us an easy way to preview them in the browser, whilst also lending itself to be used as a microservice where fully formed email templates are retrieved from an HTTP request.</p>\n<p>Designing anything beyond simple text-based emails is challenging due to the inconsistent support for html and css properties.\nWe use some components from the <a href=\"https://github.com/chromakode/react-html-email\">react-html-email</a> project to avoid common pitfalls and extend deprecated react attributes, as well as provide some of our own.</p>\n<h2>Deployment</h2>\n<p>The quickest way to get a deployment out in the wild is to use <a href=\"https://github.com/zeit/now-cli\">now</a>.\nMake sure you have yarn installed (you can also use npm if you prefer):</p>\n<pre>yarn global <span class=\"hljs-keyword\">add</span><span class=\"bash\"> now\n</span>now</pre><p>Alternatively, to deploy it manually you can run:</p>\n<pre>yarn\nyarn <span class=\"hljs-keyword\">run</span><span class=\"bash\"> build\n</span>yarn <span class=\"hljs-keyword\">run</span><span class=\"bash\"> start</span></pre><h2>Contribute</h2>\n<p>This project is still young and will probably have a few bugs to be ironed out. There are also many components and example pages which could be included to help people with common use cases such as background images and invoice emails.</p>\n<p>If you find a bug or have any suggestion for improvements feel free to create an issue, or even better a pull request and we&apos;ll try to get it included in the project.</p>\n<p>Lets give developers a powerful new tool to simplify their workflows when dealing with emails!</p>\n<h2>Suggested improvements</h2>\n<h3>Storybook</h3>\n<p>Originally this project started out by integrating <a href=\"https://github.com/storybooks/react-storybook\">react-storybook</a> for previewing emails and quickly inspecting components with different sets of mocked data. We ran into issues getting responsiveness to work well since react-storybook puts the component inside an iframe. There was a <a href=\"https://github.com/storybooks/react-storybook\">proposed PR</a> to introduce some UI elements into react-storybook that could potentially solve this, but it seems that this approach would be better suited if it was re-implemented as a decorator.</p>\n<h3>Templates</h3>\n<p>This project could do with more templates that can be used as boilerplates. The welcome template is roughly based on a <a href=\"https://litmus.com/resources/free-responsive-email-templates\">free email template pack by Litmus</a>.</p>\n<h3>mjml</h3>\n<p>The mjml project has a more robust set of React components, it would be nice to migrate the current react-html-email library to that one - there&apos;s an open issue at the moment regarding this <a href=\"https://github.com/mjmlio/mjml/issues/488\">https://github.com/mjmlio/mjml/issues/488</a></p>\n<h2>Resources</h2>\n<ul>\n<li><a href=\"http://stackoverflow.com/questions/4466439/css-classes-in-email\">Useful stackoverflow answer about what you can and can&apos;t do with css in emails</a></li>\n<li><a href=\"https://www.campaignmonitor.com/css/\">Find out if a css property is supported</a></li>\n<li><a href=\"https://css-tricks.com/using-css-in-html-emails-the-real-story/\">Using CSS in emails</a></li>\n<li><a href=\"https://github.com/jonathandion/awesome-emails\">Awesome email awesomeness</a></li>\n<li><a href=\"https://medium.com/readme-mic/creating-and-sending-reusable-emails-with-react-a80ade7614b\">Creating and sending reusable emails with React</a></li>\n<li><a href=\"https://cm.engineering/coding-mobile-first-emails-1513ac4673e\">Coding mobile first emails</a></li>\n<li><a href=\"https://putsmail.com/\">Send test emails</a></li>\n</ul>\n<h2>Authors</h2>\n<ul>\n<li>Jo&#xE3;o Mesquita (<a href=\"https://twitter.com/fusillini\">@fusillini</a>) - <a href=\"https://tokensoft.io\">Tokensoft</a></li>\n<li>James Poole <a href=\"https://twitter.com/jamescpoole\">@jamescpoole</a> - <a href=\"https://tokensoft.io\">Tokensoft</a></li>\n<li>Sha 256 - <a href=\"https://tokensoft.io\">GenLife</a></li>\n</ul>\n<h2>License</h2>\n<p><a href=\"LICENSE.md\">MIT</a></p>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/jcsmesquita/mail-a-tron",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/jcsmesquita",
+          "text": "jcsmesquita"
+        }
+      ]
+    }
+  ]
+}
